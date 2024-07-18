@@ -26,15 +26,17 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="scrollPaneMain" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+              <Component id="scrollPaneMain" min="-2" pref="1046" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="scrollPaneMain" alignment="0" pref="1148" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="scrollPaneMain" min="-2" pref="710" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -58,51 +60,25 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="lblBottomSeparator" alignment="0" max="32767" attributes="0"/>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
-                      <Component id="btnBack" min="-2" pref="96" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="btnExit" min="-2" pref="96" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="lblEmployeeInformationHeader" alignment="0" max="32767" attributes="0"/>
-                  <Component id="lblEmployeeInformationHeader1" alignment="0" max="32767" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="lblMonth" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="lblNetWage" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="lblTotalDeductions" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="lblLateArrivalDeduction" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="lblWithholdingTax" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="lblPagIbigDeduction" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="lblPhilHealthDeduction" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="lblSssDeduction" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="lblGrossWage" alignment="1" pref="160" max="32767" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="txtTotalDeductions" alignment="0" pref="393" max="32767" attributes="0"/>
-                                          <Component id="txtLateArrivalDeduction" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtWithholdingTax" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtPagIbigDeduction" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtPhilHealthDeduction" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtSssDeduction" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtGrossWage" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtMonth" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtNetWage" max="32767" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="lblEmployeeInformationHeader" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Component id="btnDeleteInfo" min="-2" pref="131" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="btnUpdateInfo" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Component id="btnSave" min="-2" pref="128" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="lblEmployeeNumber" min="-2" pref="160" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="txtEmployeeNumber" max="32767" attributes="0"/>
+                                          <Component id="txtEmployeeNumber" min="-2" pref="420" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
                                           <Component id="lblLastName" min="-2" pref="160" max="-2" attributes="0"/>
@@ -187,7 +163,7 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="lblGrossSemimonthlyRate" min="-2" pref="160" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="txtGrossSemimonthlyRate" min="-2" pref="393" max="-2" attributes="0"/>
+                                          <Component id="txtGrossSemimonthlyRate" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="lblHourlyRate" min="-2" pref="160" max="-2" attributes="0"/>
@@ -197,27 +173,85 @@
                                   </Group>
                               </Group>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-                              <Component id="btnDeleteInfo" min="-2" pref="131" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                              <Component id="btnUpdateInfo" min="-2" pref="128" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                              <Component id="btnSave" min="-2" pref="128" max="-2" attributes="0"/>
-                          </Group>
                       </Group>
-                      <EmptySpace pref="16" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="lblPagIbigDeduction" min="-2" pref="160" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="txtPagIbigDeduction" min="-2" pref="250" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblPhilHealthDeduction" min="-2" pref="160" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="txtPhilHealthDeduction" min="-2" pref="250" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblSssDeduction" min="-2" pref="160" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="txtSssDeduction" min="-2" pref="250" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblGrossWage" min="-2" pref="160" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="txtGrossWage" min="-2" pref="250" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblWithholdingTax" min="-2" pref="160" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="txtWithholdingTax" min="-2" pref="250" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblLateArrivalDeduction" min="-2" pref="160" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="txtLateArrivalDeduction" min="-2" pref="250" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblTotalDeductions" min="-2" pref="160" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="txtTotalDeductions" min="-2" pref="250" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblNetWage" min="-2" pref="160" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="txtNetWage" min="-2" pref="250" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btnBack" min="-2" pref="96" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="btnExit" min="-2" pref="96" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="lblMonth" min="-2" pref="160" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtMonth" min="-2" pref="250" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblEmployeeInformationHeader1" alignment="0" min="-2" pref="472" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="lblEmployeeInformationHeader" min="-2" pref="40" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblEmployeeInformationHeader" max="32767" attributes="0"/>
+                          <Component id="lblEmployeeInformationHeader1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblEmployeeNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtEmployeeNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblMonth" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtMonth" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -228,6 +262,8 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblFirstName" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtFirstName" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblGrossWage" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtGrossWage" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -238,18 +274,22 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblAddress" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtAddress" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblSssDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtSssDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblPhoneNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtPhoneNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblSssNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtSssNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblPhilHealthDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtPhilHealthDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblPhilHealthNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtPhilHealthNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
@@ -258,16 +298,20 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblTinNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtTinNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblPagIbigDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtPagIbigDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblPagIbigNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtPagIbigNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblStatus" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtStatus" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblWithholdingTax" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtWithholdingTax" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -278,6 +322,8 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblImmediateSupervisor" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtImmediateSupervisor" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblLateArrivalDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtLateArrivalDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -288,6 +334,8 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblRiceSubsidy" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtRiceSubsidy" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblTotalDeductions" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtTotalDeductions" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -298,78 +346,37 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblClothingAllowance" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtClothingAllowance" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblNetWage" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtNetWage" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblGrossSemimonthlyRate" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="txtGrossSemimonthlyRate" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblHourlyRate" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="txtHourlyRate" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnDeleteInfo" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                          <Component id="btnSave" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                          <Component id="btnUpdateInfo" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                      <Component id="lblEmployeeInformationHeader1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtMonth" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblMonth" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtGrossWage" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblGrossWage" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtSssDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblSssDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtHourlyRate" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="lblHourlyRate" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnSave" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="btnUpdateInfo" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="btnDeleteInfo" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnBack" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
+                                  <Component id="btnExit" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtPhilHealthDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblPhilHealthDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtPagIbigDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblPagIbigDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtWithholdingTax" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblWithholdingTax" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtLateArrivalDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblLateArrivalDeduction" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtTotalDeductions" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblTotalDeductions" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtNetWage" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblNetWage" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                      <Component id="lblBottomSeparator" min="-2" pref="2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnExit" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
-                          <Component id="btnBack" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1073,21 +1080,6 @@
                   </Border>
                 </Property>
                 <Property name="focusable" type="boolean" value="false"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="lblBottomSeparator">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="33" green="33" red="33" type="rgb"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Leelawadee" size="16" style="1"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-                <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="opaque" type="boolean" value="true"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="btnExit">
